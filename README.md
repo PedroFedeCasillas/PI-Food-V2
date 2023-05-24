@@ -1,3 +1,6 @@
+Este es una versión con mas herramientas y funcionalidades, trabajo realizado como practica.
+
+
 ![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
 
 # **FOOD** | Proyecto Individual
