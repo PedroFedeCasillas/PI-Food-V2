@@ -1,0 +1,47 @@
+.container_search {
+    margin: auto;
+    position: relative;
+    width: 300px;
+    height: 42px;
+    border: 4px solid #fbb304;
+    border-radius: 50px;
+}
+
+.elements {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.search {
+    border: none;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    border-radius: 50px;
+    color: #424242;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.filter {
+    width: 30%;
+    border: thin solid #fbb304;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.search:focus {
+    outline: none;
+}
+
+.icon {
+    width: 20px;
+    margin-right: 20px;
+}
+
+.button_icon {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}

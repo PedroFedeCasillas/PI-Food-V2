@@ -1,0 +1,131 @@
+.container {
+    width: 100%;
+    padding: 25px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.container_about {
+    width: 60%;
+    box-shadow: 0 2px 20px #e1e5ee;
+    border-radius: 0.2rem;
+    padding: 20px;
+    padding-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lenguage {
+    position: absolute;
+    left: 350px;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: thin solid #000;
+    cursor: pointer;
+}
+
+.lenguage_icon {
+    width: 30px;
+    height: 30px;
+}
+
+.lenguage:hover {
+    border-color: #fbb304;
+    background-color: #fbb304;
+    color: #fff;
+}
+
+.description {
+    font-size: 24px;
+    line-height: 42px;
+}
+
+.dev {
+  background-clip: text;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+.tools {
+    margin-bottom: 20px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    width: 55px;
+    background-color: #fcc434;
+    margin: 0 0 20px 0;
+    padding: 5px 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.counter {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+
+.tech_list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1em;
+}
+  
+.tech_list li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2em;
+}
+  
+.react_icon {
+    width: 3em;
+    height: 2em;
+    color: #fcc434;
+}
+
+.about_pages {
+    display: flex;
+    margin-top: 1em;
+    margin-bottom: 20px;
+  }
+
+.about_pages a {
+    padding: 0.2em;
+    text-decoration: none;
+}
+.social_links_icons {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 3px;
+    margin-right: 15px;
+}
+
+.about_pages .social_links_icons:hover {
+    opacity: 80;
+}
+    
+@media (max-width: 600px) {
+    .container_about {
+        width: 95%;
+    }
+    .lenguage {
+        left: 300px;
+    }
+    .tech_list {
+        grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
+    }
+}

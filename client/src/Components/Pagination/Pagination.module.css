@@ -1,0 +1,41 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container h5 {
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.container_pagination {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.pagination_page {
+    width: 30px;
+    margin-left: 10px;
+    padding: 3px 0;
+    font-size: 1rem;
+    text-align: center;
+    background-color: transparent;
+    border: thin solid #000;
+    cursor: pointer;
+}
+
+.pagination_page:hover {
+    border-color: #fbb304;
+    background-color: #fbb304;
+}
+
+@media (max-width: 600px) {
+    .container_pagination {
+        flex-wrap: wrap;
+    }
+    .container_pagination * {
+        margin-bottom: 5px;
+    }
+}

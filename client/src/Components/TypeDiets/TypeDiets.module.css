@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 1rem;
+}
+
+.badgeGreen,
+.badgeRed,
+.badgePurple,
+.badgeCyan {
+    padding: 4px 8px;
+    color: #fff;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.badgeGreen {
+    background-color: #198754;
+}
+
+.badgeRed {
+    background-color: #dc3545;
+}
+
+.badgePurple {
+    background-color: #6f42c1;
+}
+
+.badgeCyan {
+    background-color: #0dcaf0;
+}

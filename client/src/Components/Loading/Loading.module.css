@@ -1,0 +1,42 @@
+/*===========> loading <==========*/
+.loading {
+    background-color: #0d0e2a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #fff;
+  }
+  
+  .loadingSpiner {
+    width: 100px;
+    height: 100px;
+    display: grid;
+    border:8px solid rgb(220, 53, 53);
+    border-radius: 50%;
+    border-color:red rgb(240, 252, 1);
+    animation: s6 2s infinite linear;
+  }
+  .loadingSpiner::before,
+  .loadingSpiner::after {   
+    content:"";
+    grid-area: 1/1;
+    margin:4px;
+    border:inherit;
+    border-radius: 50%;
+  }
+  .loadingSpiner::before {
+    border-color:green rgb(19, 145, 19);
+    animation:inherit; 
+    animation-duration: 1s;
+    animation-direction: reverse;
+  }
+  .loadingSpiner::after {
+    margin:16px;
+  }
+  
+  @keyframes s6 { 
+    100%{transform: rotate(1turn)}
+  }
+  /*===========> hasta acá loading <==========*/

@@ -1,0 +1,129 @@
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    word-wrap: break-word;
+}
+
+.form_container {
+    width: 55%;
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+
+.form_container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form_textarea {
+    display: flex;
+}
+
+.form_textarea *,
+.input_box {
+    padding: 10px;
+    margin: 5px;
+    border: thin solid #ccc;
+    border-radius: 5px;
+}
+
+.form_textarea * {
+    width: 50%;
+    resize: none;
+}
+
+.title {
+    font-size: 25px;;
+    font-weight: 500;
+}
+
+.type_diets {
+    margin: 20px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.diet {
+    margin: 5px;
+}
+
+.button {
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px 0;
+    font-size: 1.2rem;
+    border: thin solid #fbb304;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #fbb304;
+    color: #fff;
+}
+
+.card_display {
+    width: 45%;
+    padding: 25px 30px;
+}
+
+.card {
+    width: 100%;
+    box-shadow: 0 2px 20px #e1e5ee;
+    border-radius: 0.2rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card img {
+    height: 15rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card h3 {
+    padding: 0.2rem 1rem;
+
+}
+.card h5 {
+    padding: 0 1rem;
+}
+
+.card span {
+    padding: 0 1rem;
+}
+
+.card_textarea {
+    padding: 1rem;
+}
+
+.container_diets {
+    margin: 15px;
+}
+
+.form_error {
+    border-color: #ff0000;
+}
+
+.form_message_error {
+    margin-left: 5px;
+    font-size: 14px;
+    color: #ff0000;
+}
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+    .form_container {
+        width: 90%;
+    }
+    .card_display {
+        width: 90%;
+    }
+}
